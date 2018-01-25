@@ -1,6 +1,6 @@
 #include "and.h"
 
-void And::computeOutput()
+void Not::computeOutput()
 {
 	Node *in1 =getFirstInputNode();
 	Node *out =getOutputNode();
