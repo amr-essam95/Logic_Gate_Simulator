@@ -7,11 +7,11 @@ class Node
 		int nodeValue;
 		int nodeId;
 	public:
+		Node();
 		int getNodeValue();
 		void setNodeValue(int val);
 		int getNodeId();
 		void setNodeId(int val);
-		void Node();
 
 };
 
