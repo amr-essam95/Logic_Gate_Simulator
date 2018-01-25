@@ -2,8 +2,8 @@
 
 void And::computeOutput()
 {
-	Node *in1 =getFirstInput();
-	Node *out =getOutput();
+	Node *in1 =getFirstInputNode();
+	Node *out =getOutputNode();
 
 	if(*in1==1 )
 	{

@@ -2,12 +2,12 @@
 
 void Or::computeOutput()
 {
-	if(getFirstInput()->getNodeValue()==1 || getSecondInput()->getNodeValue()==1)
+	if(getFirstInputNode()->getNodeValue()==1 || getSecondInputNode()->getNodeValue()==1)
 	{
-		getOutput()->setNodeValue(1);
+		getOutputNode()->setNodeValue(1);
 	}
 	else
 	{
-		getOutput()->setNodeValue(0);
+		getOutputNode()->setNodeValue(0);
 	}
 }

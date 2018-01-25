@@ -2,8 +2,8 @@
 
 void Nand::computeOutput()
 {
-	Node *in1 =getFirstInput();
-	Node *in2 =getSecondInput();
+	Node *in1 =getFirstInputNode();
+	Node *in2 =getSecondInputNode();
 	Node *out =getOutput();
 	// if(*in1==-1 || *in2==-1)
 	// {
