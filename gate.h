@@ -8,6 +8,7 @@ class Gate
 	Node *in1;
 	Node *in2;
 public:
+	Gate();
 	Gate(Node *i1,Node *i2);
 	Node* getFirstInput();
 	Node* getSecondInput();
