@@ -9,7 +9,7 @@ void And::computeOutput()
 	// {
 	// 	out->setNodeValue(-1)
 	// }
-	if(*in1==1 && *in2==1)
+	if(in1->getNodeValue()==1 && in2->getNodeValue()==1)
 	{
 		out->setNodeValue(1);
 	}
