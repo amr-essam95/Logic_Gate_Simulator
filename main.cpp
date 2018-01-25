@@ -7,7 +7,6 @@ using namespace std;
 int main()
 {
 	Node x;
-	Gate y;
 
 	return 0;
 }

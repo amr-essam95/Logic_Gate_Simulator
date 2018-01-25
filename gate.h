@@ -19,4 +19,5 @@ public:
 	virtual void computeOutput() =0;
 };
 
+#include "gate.cpp"
 #endif

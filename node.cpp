@@ -5,21 +5,21 @@ Node::Node()
 	nodeValue= -1;
 }
 
-void setNodeValue(int val)
+void Node::setNodeValue(int val)
 {
 	nodeValue = val;
 }
 
-int getNodeValue()
+int Node::getNodeValue()
 {
 	return nodeValue;
 }
 
-int getNodeId()
+int Node::getNodeId()
 {
 	return nodeId;
 }
-void setNodeId(int val)
+void Node::setNodeId(int val)
 {
 	nodeId = val;
 }
