@@ -2,9 +2,9 @@
 
 void Xor::computeOutput()
 {
-	in1 = getFirstInputNode()->getNodeValue();
-	in2 = getSecondInputNode()->getNodeValue();
-	if((in1==1 && in2==1)||(in1==0 && in2==0))
+	int i1 = getFirstInputNode()->getNodeValue();
+	int i2 = getSecondInputNode()->getNodeValue();
+	if((i1==1 && i2==1)||(i1==0 && i2==0))
 	{
 		getOutputNode()->setNodeValue(0);
 	}

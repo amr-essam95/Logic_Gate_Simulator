@@ -1,8 +1,9 @@
 #ifndef NOT_H
 #define NOT_H
 #include "gate.h"
-class Nand : public Gate
+class Not: public Gate
 {
+public:
 	void computeOutput();
 };
 

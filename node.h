@@ -6,6 +6,7 @@ class Node
 	private:
 		int nodeValue;
 		int nodeId;
+		int level;
 	public:
 		Node();
 		int getNodeValue();

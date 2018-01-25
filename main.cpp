@@ -15,14 +15,14 @@ int main()
 	Node in1;
 	Node in2;
 	Node out;
-	Xor y;
+	Not y;
 	y.setFirstInput(&in1);
-	y.setSecondInput(&in2);
+	// y.setSecondInput(&in2);
 	y.setOutput(&out);
 	y.setFirstInput(1);
-	y.setSecondInput(0);
+	// y.setSecondInput(1);
 	y.computeOutput();
-	cout << y.getOutput();
+	cout << y.getOutput()<<endl;
 
 
 	return 0;

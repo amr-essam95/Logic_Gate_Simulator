@@ -1,10 +1,11 @@
-#ifndef NOT_H
-#define NOT_H
+#ifndef AND_H
+#define AND_H
 #include "gate.h"
-class Nand : public Gate
+class And : public Gate
 {
+public:
 	void computeOutput();
 };
 
-#include "not.cpp"
+#include "and.cpp"
 #endif

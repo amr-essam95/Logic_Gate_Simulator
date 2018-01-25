@@ -3,7 +3,7 @@
 #include "gate.h"
 class Nand : public Gate
 {
-	
+	public:
 	void computeOutput();
 
 };
