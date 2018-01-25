@@ -22,6 +22,7 @@ int main()
 	y.setFirstInput(1);
 	y.setSecondInput(0);
 	y.computeOutput();
+	cout << y.getOutput();
 
 
 	return 0;
