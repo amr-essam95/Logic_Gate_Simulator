@@ -1,5 +1,9 @@
 #include "gate.h"
 
+Gate::Gate()
+{
+	;
+}
 Gate::Gate(Node *i1,Node *i2)
 {
 	in1 = i1;
