@@ -10,11 +10,16 @@ class Gate
 public:
 	Gate();
 	Gate(Node *i1,Node *i2);
-	Node* getFirstInput();
-	Node* getSecondInput();
-	Node* getOutput();
+	Node* getFirstInputNode();
+	Node* getSecondInputNode();
+	Node* getOutputNode();
+	int getFirstInput();
+	int getSecondInput();
+	int getOutput();
 	void setFirstInput(Node* i);
+	void setFirstInput(int i);
 	void setSecondInput(Node* i);
+	void setSecondInput(int i);
 	void setOutput(Node* o);
 	virtual void computeOutput() =0;
 };
