@@ -2,12 +2,14 @@
 
 void Xnor::computeOutput()
 {
-	if((getFirstInput()->getNodeValue()==1 && getSecondInput()->getNodeValue()==1)||(getFirstInput()->getNodeValue()==0 && getSecondInput()->getNodeValue()==0))
+	int in1 = getFirstInputNode()->getNodeValue();
+	int in2 = getSecondInputNode()->getNodeValue();
+	if((in1==1 && in2==1)||(in1==0 && in2==0))
 	{
-		getOutput()->setNodeValue(1);
+		getOutputNode()->setNodeValue(1);
 	}
 	else
 	{
-		getOutput()->setNodeValue(0);
+		getOutputNode()->setNodeValue(0);
 	}
 }

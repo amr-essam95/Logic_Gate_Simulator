@@ -1,17 +1,17 @@
-#include "and.h"
+#include "not.h"
 
-void And::computeOutput()
+void Not::computeOutput()
 {
-	Node *in1 =getFirstInput();
-	Node *out =getOutput();
+	Node *i1 =getFirstInputNode();
+	Node *o =getOutputNode();
 
-	if(*in1==1 )
+	if(i1->getNodeValue()==1 )
 	{
-		out->setNodeValue(0);
+		o->setNodeValue(0);
 	}
 	else
 	{
-		out->setNodeValue(1);
+		o->setNodeValue(1);
 	}
 
 
