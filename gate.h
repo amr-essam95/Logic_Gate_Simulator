@@ -15,6 +15,7 @@ public:
 	void setFirstInput(Node* i);
 	void setSecondInput(Node* i);
 	void setOutput(Node* o);
+	virtual void computeOutput() =0;
 };
 
 #endif
