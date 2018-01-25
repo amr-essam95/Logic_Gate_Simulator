@@ -1,6 +1,6 @@
 #include "node.h"
 
-void Node::Node()
+Node::Node()
 {
 	nodeValue= -1;
 }
