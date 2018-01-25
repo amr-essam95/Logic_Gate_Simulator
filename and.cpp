@@ -2,9 +2,9 @@
 
 void And::computeOutput()
 {
-	Node *in1 =getFirstInput();
-	Node *in2 =getSecondInput();
-	Node *out =getOutput();
+	Node *in1 =getFirstInputNode();
+	Node *in2 =getSecondInputNode();
+	Node *out =getOutputNode();
 	// if(*in1==-1 || *in2==-1)
 	// {
 	// 	out->setNodeValue(-1)
