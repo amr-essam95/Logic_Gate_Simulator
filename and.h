@@ -1,22 +1,10 @@
-#include "and.h"
- 
-void And::computeOutput()
+#ifndef NOT_H
+#define NOT_H
+#include "gate.h"
+class Nand : public Gate
 {
-	Node *in1 =getFirstInputNode();
-	Node *in2 =getSecondInputNode();
-	Node *out =getOutputNode();
-	// if(*in1==-1 || *in2==-1)
-	// {
-	// 	out->setNodeValue(-1)
-	// }
-	if(*in1==1 && *in2==1)
-	{
-		out->setNodeValue(1);
-	}
-	else
-	{
-		out->setNodeValue(0);
-	}
+	void computeOutput();
+};
 
-
-} 
+#include "not.cpp"
+#endif
